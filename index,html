@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="/Health/Logo.jpg" width="34px" height="40px">
+        </div>
+        <div id="nav">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="About-page.html">About</a></li>
+
+                <li><a href="Contact.html">Contact</a></li>
+                <li><a href="#">Order</a></li>
+                <li><a href="#">Wishlist</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <section id="Hero-section">
+        <h3>Your Health, Our Priority: Discover Smart Health Monitoring Devices!"</h3>
+        <p>Track your health effortlessly with cutting-edge devices designed to keep you safe and healthy, anytime,
+            anywhere." </p>
+        <button class="orange">shop now</button>
+    </section>
+
+
+    <!-- Featured products -->
+    <section id="Prodcts" class="padding">
+      
+        <h1>Features Product List</h1>
+        <div class="Images">
+            <a href="Product-page.html" style="text-decoration: none; color: inherit;">
+            <div class="image">
+                <img src="/Health/Pulse Oximeters.jpg">
+                
+                <div class="about">
+                    <h5>Pulse Oximeters Pro </h5>
+                    <p>Accurate oxygen level monitoring on the go.</p>
+                    <div class="star">
+                        <p>⭐⭐⭐⭐⭐</p>
+                    </div>
+                    <h4>MRP:₹ 1,499 </h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping fa-beat"></i></a>
+            </div>
+
+            <div class="image">
+                <img src="/Health/Fit.png">
+                <div class="about">
+                    <h5>Fitness Tracker X1</h5>
+                    <p>rack steps, calories, heart rate, and more!.</p>
+                    <div class="star">
+                        <p>⭐⭐⭐⭐⭐</p>
+                    </div>
+                    <h4>MRP:₹ 2,999 </h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping fa-beat"></i></a>
+            </div>
+
+            <div class="image">
+                <img src="/Health/Oxy2.webp">
+                <div class="about">
+                    <h5>Inogen One G5 Oxygen Concentrato </h5>
+                    <p>Lightweight and reliable for respiratory support.</p>
+                    <div class="star">
+                        <p>⭐⭐⭐⭐⭐</p>
+                    </div>
+                    <h4>MRP:₹ 89,999 </h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping fa-beat"></i></a>
+            </div>
+
+            <div class="image">
+                <img src="/Health/Stethscope.jpg">
+                <div class="about">
+                    <h5>Digital Stethoscope Pro </h5>
+                    <p>High-definition sound and advanced lung and heart monitoring. </p>
+                    <div class="star">
+                        <p>⭐⭐⭐⭐⭐</p>
+                    </div>
+                    <h4>MRP:₹ 12,499 </h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping fa-beat"></i></a>
+            </div>
+
+            <div class="image">
+                <img src="/Health/SmartGlu.jpg">
+                <div class="about">
+                    <h5>Smart Glucometer X2</h5>
+                    <p>Monitor blood sugar levels anytime, anywhere.</p>
+                    <div class="star">
+                        <p>⭐⭐⭐⭐⭐</p>
+                    </div>
+                    <h4>MRP:₹ 2,499 </h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping fa-beat"></i></a>
+            </div>
+
+            <div class="image">
+                <img src="/Health/Bloodpressure.jpg">
+                <div class="about">
+                    <h5>Blood Pressure Monitor Elite </h5>
+                    <p>stay ahead of hypertension with accurate .</p>
+                    <div class="star">
+                        <p>⭐⭐⭐⭐⭐</p>
+                    </div>
+                    <h4>MRP:₹ 3,999 </h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping fa-beat"></i></a>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <section class="Banner-One">
+        
+            <h3>Complete Health Monitoring in One Place!</h3>
+            <p>From oxygen concentrators to smart stethoscopes, we've got you covered.</p>
+            <p class="p2"> on select products Enjoy limited-time discounts </p1>
+            <span>UPTO 40% OFF </span>
+          <div> 
+              <button class="grey">Explore Now</button>
+          </div> 
+
+    </section>
+
+    <!-- Banner2 -->
+
+    <section id="BANNERS" class="padding">
+        <div class="Banner-Two">
+            <h5>Up to 40% Off on Fitness Trackers!</h5>
+            <button class="orange">Explore Now </button>
+        </div>
+
+        <div class="Banner-Two Banner-three">
+            <h5>Advanced Respiratory Devices:</h5>
+                <p> Oxygen Concentrators & More."</p>
+            <button class="orange">Shop now</button>
+        </div>
+    </section>
+
+
+
+    <!-- More Products -->
+
+    <section id="Prodcts" class="padding">
+        <h1>Explore More Product</h1>
+        <div class="Images">
+            <div class="image">
+                <img src="/Health/HealthM1.jpg">
+                <div class="about">
+                    <h5>Omron Digital Blood Pressure Monitor </h5>
+                    <p>Stay in control of your heart health.easy to use.</p>
+                    <div class="star">
+                        <p>⭐⭐⭐⭐⭐</p>
+                    </div>
+                    <h4>MRP:₹ 3,499 </h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping fa-beat"></i></a>
+            </div>
+
+
+            <div class="image">
+                <img src="/Health/thermometers1.webp">
+                <div class="about">
+                    <h5>Thermometers </h5>
+                    <p>Quick, reliable, and easy-to-use temperature solutions!.</p>
+                    <div class="star">
+                        <p>⭐⭐⭐⭐⭐</p>
+                    </div>
+                    <h4>MRP:₹ 1000 </h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping fa-beat"></i></a>
+            </div>
+
+
+            <div class="image">
+                <img src="/Health/s1.jpg">
+                <div class="about">
+                    <h5>Fitness Tracker X1 </h5>
+                    <p>Your fitness companion for an active lifestyle</p>
+                    <div class="star">
+                        <p>⭐⭐⭐⭐⭐</p>
+                    </div>
+                    <h4>MRP:₹ 1,999 </h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping fa-beat"></i></a>
+            </div>
+
+
+            <div class="image">
+                <img src="/Health/Oxy1.jpg">
+                <div class="about">
+                    <h5> Oximeters Pro </h5>
+                    <p>Monitor oxygen levels in seconds.</p>
+                    <div class="star">
+                        <p>⭐⭐⭐⭐⭐</p>
+                    </div>
+                    <h4>MRP:₹ 9,499 </h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping fa-beat"></i></a>
+            </div>
+
+
+
+            <div class="image">
+                <img src="/Health/Wheelchair.jpg">
+                <div class="about">
+                    <h5>Karma Ergo Lite Wheelchair </h5>
+                    <p>Lightweight and easy to maneuver.</p>
+                    <div class="star">
+                        <p>⭐⭐⭐⭐⭐</p>
+                    </div>
+                    <h4>MRP:₹ 14,499 </h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping fa-beat"></i></a>
+            </div>
+
+
+            <div class="image">
+                <img src="/Health/nebulizer.jpg">
+                <div class="about">
+                    <h5>Omron NE-C28 Compressor Nebulizer</h5>
+                    <p>rusted respiratory care for the whole family</p>
+                    <div class="star">
+                        <p>⭐⭐⭐⭐⭐</p>
+                    </div>
+                    <h4>MRP:₹ 21,499 </h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping fa-beat"></i></a>
+            </div>
+
+
+            <div class="image">
+                <img src="/Health/Massagers.jpg">
+                <div class="about">
+                    <h5>Dr. Physio Electric Foot Massager</h5>
+                    <p>Ultimate relaxation for tired feet!".</p>
+                    <div class="star">
+                        <p>⭐⭐⭐⭐⭐</p>
+                    </div>
+                    <h4>MRP:₹ 8,499 </h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping fa-beat"></i></a>
+            </div>
+                
+        </div>
+
+    </section>
+
+</body>
+
+<footer>
+    <section id="FOOTER">
+        <div class="footer-panel1">
+            <div class="logo">
+                <img src="Health/" height="60px">
+                <p> Mediaro </p>
+            </div>
+            <div class="panel1">
+                <p>Yay!Now you can</p>
+                <p><b>WHATSAPP</b></p>
+                <p> TO ORDER</p>
+            </div>
+            <button class="btn"> Whatsapp @ +91- 1234567895 <i class="fa-brands fa-whatsapp fa-2xl"
+                    style="color: #20832b;"></i></button>
+                    <div class="IMAGE"><img src="Health/calling.webp" height="200px" width="170px"></div>
+        </div>
+        
+    </section>
+
+    <section id="FOOTER-ONE">
+        <div class="footer-panel2">
+
+            <div class="panel2">
+                <h3>Mediaro <i class="fa-solid fa-basket-shopping" style="color: #13634b;"></i></h3>
+                <p>Feel Free To Follow Us On Our Social Media Handlers All The Links Are Given Below.</p>
+
+            <div class="Mediaro">
+
+                <!-- <div class="panel2">
+                    <h3>Mediaro <i class="fa-solid fa-basket-shopping" style="color: #13634b;"></i></h3>
+                    <p>Feel Free To Follow Us On Our Social Media Handlers All The Links Are Given Below.</p> -->
+
+                    <div class="Links">
+                        <i class="fa-brands fa-square-facebook" style="color: #1d2025;"></i>
+                        <i class="fa-brands fa-twitter" style="color: #090a0c;"></i>
+                        <i class="fa-brands fa-instagram fa-beat-fade" style="color: #1d1e20;"></i>
+                        <i class="fa-brands fa-linkedin-in fa-beat-fade" style="color: #202327;"></i>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="panel2">
+                <h3> Contact Info</h3>
+                <a href="#" class="LINKS"> <i class="fa fa-phone"></i> +91-5678986767</a>
+                <a href="#" class="LINKS"> <i class="fa fa-phone"></i> +91-7895347890</a>
+                <a href="#" class="LINKS"> <i class="fa fa-envelope"></i> media@gmail.com</a>
+                <a href="#" class="LINKS"> <i class="fa fa-map-marker"></i> Mohanpur,Giridih,Jharkhand</a>
+            </div>
+
+            <div class="panel2">
+                <h3>Helpful Links</h3>
+                <a href="#" class="LINKS"> <i class="fa-solid fa-house"> </i>- Home</a>
+                <a href="#" class="LINKS"> <i class="fa fa-address-card"></i>-About</a>
+                <a href="#" class="LINKS"><i class="fa-regular fa-list"></i>-Categories</a>
+                <a href="#" class="LINKS"><i class="fa fa-phone-volume"></i> -Contact </a>
+                <a href="#" class="LINKS"><i class="fa-solid fa-sort"></i></i>- Order </a>
+            </div>
+
+
+            <div class="panel2">
+                <h3>Newsletter</h3>
+                <p>Subscribe for Latest Update</p>
+                <input type="name" placeholder="Enter your Email" required class="Email">
+                <button class="btn">submit</button>
+                <div><img src="/Health/payment.png" height="px" width="150px"></div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="FOOTER-TWO">
+        <div class="footer-panel3">
+            <p>© 2025 Mediaro. All Rights Reserved.</p>
+            <p> Your trusted partner in premium medical accessories and healthcare solutions.</p>
+
+        </div>
+
+
+    </section>
+</footer>
+
+
+</html>
