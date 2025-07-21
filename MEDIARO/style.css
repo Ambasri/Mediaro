@@ -1,0 +1,958 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", serif;
+}
+body{
+    background-color: #ffffff;
+}
+button.orange{
+    padding: 15px 30px;
+    border-radius: 4px;
+    border: none;
+    background-color:#ffa500;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 14px;
+    cursor: pointer;
+    outline: none;
+}
+button.grey{
+    padding: 15px 30px;
+    border-radius: 4px;
+    border:2px solid #002c5f;
+    background-color:transparent;
+    color: #002c5f;
+    font-weight: 700;
+    font-size: 14px;
+    cursor: pointer;
+    outline: none;
+}
+
+
+.padding {
+    padding: 40px 60px;
+}
+
+header {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    padding: 10px 30px 4px 20px;
+    align-items: center;
+    justify-content: space-between;
+    background: #008080;
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    left: 0;
+
+
+}
+
+/* header .logo {
+    padding: 2vw;
+
+} */
+
+#nav ul {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    /* justify-content: space-between; */
+
+}
+
+#nav ul li {
+    list-style: none;
+    padding-right: 4vw;
+    font-weight: 700;
+    font-size: large;
+}
+
+#nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+#nav ul li a:hover {
+    color: #ffa500;
+}
+
+
+/* Hero-section */
+
+#Hero-section {
+    background-image: url("/Health/B1.jpg");
+    width: 100%;
+    height: 50vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0 6%;
+    margin-bottom: 10px;
+    
+
+}
+
+#Hero-section h3 {
+    padding-bottom: 15px;
+    color: #002c5f;
+    font-size: 2vw;
+    font-style: oblique;
+
+}
+
+#Hero-section p {
+    padding-bottom: 30px;
+    color: #ffffff;
+    font-size: 1vw;
+    font-weight: 800;
+    font-style: oblique;
+}
+
+#Hero-section .orange {
+    padding: 15px 30px;
+    border-radius: 4px;
+    border: none;
+    background-color:#ffa500;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 14px;
+    cursor: pointer;
+    outline: none;
+}
+
+#Hero-section .orange:hover {
+    background-color:#ff8c00;
+    color: #ffffff;
+
+}
+
+
+/*banner */
+.Banner-One {
+    width: 100%;
+    height: 50vh;
+    background-image: url("/Health/B2.jpg");
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    justify-content: center;
+    background-size: cover;
+    padding: 0px 80px;
+    margin-bottom: 15px;
+    
+}
+.Banner-One h3{
+    color: #002c5f;
+    font-size: 37px;
+    padding-bottom: 4px;
+}
+.Banner-One p{
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+
+.Banner-One .p2{
+    color: #002c5f;
+}
+.Banner-One .p2 span{
+    color: #ffffff;
+    font-size: 34px;
+    font-weight: 800;
+}
+
+.Banner-One .grey:hover {
+    background-color: rgba(17, 156, 206, 0.578);
+    color: aliceblue
+}
+
+/* Product */
+
+#Prodcts h1{
+font-size: 34px;
+color: #002c5f;
+}
+#Prodcts .Images {
+    display: flex;
+    /* align-items: center; */
+    padding-top: 20px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#Prodcts {
+    text-align: center;
+}
+
+#Prodcts .Images .image {
+    width: 30%;
+    border: 1px solid #e0e0e0;
+    border-radius: 20px;
+    box-shadow:20px 20px 30px rgba(0, 0, 0, 0.02);
+    margin-bottom: 30px;
+    position: relative;
+    cursor: pointer;
+    background-color: #ffffff;
+    
+}
+
+#Prodcts .Images .image:hover {
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.06)
+}
+#Prodcts .Images .image a{
+    color: #008080;
+}
+
+#Prodcts .Images .image img {
+    width: 100%;
+    border-radius: 30px;
+    padding: 1vw;
+    aspect-ratio: 2/1.5;
+
+}
+
+#Prodcts .Images .image .about {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding:1vw;
+
+}
+
+#Prodcts .Images .image .about p{
+    color: #606063;
+    font-weight: 600;
+    font-size: 14px;
+}
+#Prodcts .Images .image a {
+    position: absolute;
+    right: 3vw;
+    bottom: 1vw;
+    font-size: xx-large;
+}
+
+#Prodcts .Images .image .about h4 {
+    padding: 5px 0px;
+    color: #008080;
+    font-size: 20px;
+}
+
+#Prodcts .Images .image .about h5{
+    font-size: 16px;
+    font-weight:700;
+}
+
+
+
+/* BANNERS */
+
+#BANNERS {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+#BANNERS .Banner-Two {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px;
+     background-position:right;
+    width: 48%;
+    height: 50vh;
+    background-image: url("/Health/W1.webp");
+    background-size: cover;
+    
+    aspect-ratio: 2/5;  
+}
+    
+#BANNERS .Banner-Two button{
+    margin-top: 20px;
+}
+  
+#BANNERS .Banner-Two h5 {
+    
+    font-size:34px;
+    font-weight: 600; 
+    color: #ffffff;
+    padding-bottom: 5px;
+
+}
+
+#BANNERS .Banner-three {
+    background-image: url("/Health/O1.jpg");
+  
+}
+
+
+
+
+/* Footer */
+
+
+
+.footer-panel1 {
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    height: 180px;
+    background-color: #115353f3;
+    overflow: hidden;
+    
+}
+
+.footer-panel1 .panel1 p {
+    color: aliceblue;
+    line-height: 32px;
+    font-size: xx-large;
+}
+
+.panel1 p:first-child {
+    padding-bottom: 10px;
+
+}
+
+.footer-panel1 .btn {
+    border-radius: 12px;
+    padding: 15px;
+    background-color: orange;
+    color: aliceblue;
+}
+
+.IMAGE img {
+    padding: 20px;
+    border-radius: 27px;
+    text-align: center;
+}
+
+.logo p {
+    font-size: xx-large;
+    font-style: italic;
+    font-weight: 900;
+    color: aliceblue;
+}
+
+
+/* footer-panel2 */
+
+#FOOTER-ONE .footer-panel2 .Mediaro {
+    width: 20%;
+}
+
+.footer-panel2 .panel2 p {
+    line-height: 1.4;
+    font-size: medium;
+    padding: 10px;
+
+}
+
+.footer-panel2 .panel2 h3 {
+    padding: 10px;
+    font-size: x-large;
+
+}
+
+
+.footer-panel2 .panel2 .Links {
+    padding: 10px;
+    font-size: x-large;
+}
+
+.footer-panel2 {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+.footer-panel2 .panel2 a {
+    display: block;
+    color: black;
+    /* line-height: 25px; */
+    padding: 12px 0;
+}
+
+.footer-panel2 .panel2 a i {
+    color: green;
+}
+
+.footer-panel2 .panel2 a:hover i {
+    padding: 2px;
+
+}
+
+.footer-panel2 .panel2 .Email {
+    padding: 10px;
+    border-radius: 14px;
+    font-size: large;
+    background-color: rgb(229, 236, 234);
+    border: none;
+}
+
+.footer-panel2 .panel2 .btn {
+    border-radius: 10px;
+    padding: 5px;
+    margin-top: 5px;
+    display: block;
+}
+
+
+/* Footer panel3 */
+
+#FOOTER-TWO {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+}
+
+.footer-panel3 p:first-child {
+    font-size: x-small;
+    margin-left: 22vw;
+}
+
+
+ /* PRODUCT-PAGE */
+ #Product-Box{
+    display:flex;
+    margin-top: 20px;
+ }
+#Product-Box .Product-Images{
+    width:40%;
+    margin-right: 50px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+
+#Product-Box img{
+    width: 100%;
+    height: auto;
+}
+#Product-Box .All-Images {
+    width: 20%;
+    display: flex;
+}
+#Product-Box .All-Images img {
+    flex-basis:24% ;
+}
+
+.Detailed{
+    width:60%;
+    margin-top: 32px;
+    /* box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); */
+    border-radius: 12px;
+    background-color: #fff;
+}
+.Detailed h3{
+    color:#333;
+    margin-bottom: 10px;
+}
+
+.Detailed .price{
+    font-size: 18px;
+    font-weight: bold;
+}
+.Detailed .price .original-price{
+   text-decoration: line-through ;
+   color: #777;
+   font-size: 16px;
+   margin-right: 10px;
+
+}
+.Detailed .price .discounted-price{
+    color:#226a10;
+    margin-right: 10px;
+}
+.Detailed .price .discount{
+    /* color: #226a10; */
+    background: #ff4d4d;
+    color: white;
+    padding: 4px 8px;
+    font-size: 14px;
+    border-radius: 4px;
+    margin-left: 10px;
+
+}
+.stock-status{
+    font-size: 16px;
+    font-weight: bold;
+    color: #00705f;
+    margin: 8px 0;
+}
+.star{
+    color: #ffcc00;
+    margin-bottom: 20px;
+}
+.review-count{
+    color: #555;
+    font-size: 16px;
+    
+}
+.features{
+    list-style: none;
+}
+.features li{
+    font-size: 16px;
+    margin: 6px 0;
+    color: #444;
+    display: flex;
+    align-items: center;
+}
+.features li::before {
+    content: "✔";
+    color: #2da52d;
+    font-weight: bold;
+    margin-right: 7px;
+}
+
+
+.Detailed .warranty {
+        font-size: 14px;
+        color: #676262;
+        margin-top: 10px;
+}
+.delivery{
+    font-size: 14px;
+    color: #222;
+    background: #f0f0f0;
+    padding: 8px;
+    border-radius: 6px;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+ /* Buttons */
+.buttons {
+    /* display: flex; */
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.buy-now,
+.add-to-cart {
+    /* flex: 1; */
+    padding: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: 0.4s;
+}
+
+.buy-now {
+    background: #ff6600;
+    color: white;
+}
+
+.add-to-cart {
+    background: #0084ff;
+    color: white;
+}
+
+.buy-now:hover {
+    background: #e65c00;
+}
+
+.add-to-cart:hover {
+    background: #0073e6;
+}
+
+
+/* About-Page */
+
+.about-mission h3{
+    color:#2c3e50;
+    text-align: center;
+    font-weight: bold;
+}
+.about-mission p{
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.about-product h3{
+    color: #2c3e50;
+    text-align: center;
+}
+
+.about-product ul li{
+   list-style: none;
+   
+}
+.about-why-choose h3{
+    color: #002c5f;
+text-align: center;
+padding-top: 20px;
+padding-bottom: 10px;
+}
+
+.about-why-choose li{
+    list-style: none;
+
+}
+.Image-story{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about-Image{
+    background-image: url("/Health/Banner1.jpg");
+    width: 50%;
+    height: 400px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 20px;
+    cursor: pointer;
+
+}
+
+.about-Image:hover{
+    background-size: 90%;
+}
+
+
+
+.story{
+    width: 50%;
+    border: 1px solid black;
+    border-radius: 12px;
+    margin-left: 20px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.4);
+}
+
+
+
+
+
+ /* Add to Cart */
+
+ body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f8fb;
+  }
+  
+  header {
+    background-color: #00557f;
+    padding: 15px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  #nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  #nav ul li {
+    margin-right: 20px;
+  }
+  
+  #nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .logo img {
+    border-radius: 5px;
+  }
+  
+  .cart-header {
+    padding: 30px 50px 10px 50px;
+    background-color: #e9f1f7;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .cart-header h1 {
+    margin: 0;
+    font-size: 28px;
+    color: #222;
+  }
+  
+  .back-link {
+    text-decoration: none;
+    color: #007acc;
+    font-size: 16px;
+  }
+  
+  .cart-container {
+    padding: 30px 50px;
+  }
+  
+  .cart-item {
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.08);
+  }
+  
+  .product-img {
+    width: 100px;
+    border-radius: 8px;
+    margin-right: 20px;
+  }
+  
+  .cart-details h3 {
+    margin: 0 0 10px;
+    color: #333;
+  }
+  
+  .cart-summary {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #e1f5fe;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .checkout-btn {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #00897b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .checkout-btn:hover {
+    background-color: #00796b;
+  }
+  
+  .quantity-box button:hover {
+    background: #145c36;
+  }
+  
+  .quantity-box input {
+    width: 40px;
+    text-align: center;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+
+/* Mediaqueery for responsive */
+
+@media (max-width:480px) {
+
+.padding {
+    padding: 20px 10px;
+    }
+   header {
+        height: 50px;
+
+    }
+
+    #nav ul li a {
+        font-size: 12px;
+    }
+
+    #nav ul li {
+        list-style: none;
+        padding-right: 2vw;
+        font-weight: 600;
+        font-size: small;
+    }
+
+    #Hero-section {
+        background-size: contain; 
+        height: auto; 
+        align-items: center;
+        text-align: center;
+        padding: 20px;
+    }
+    #Hero-section p{
+        font-size:1.2vw ;
+    }
+
+    #Hero-section .orange {
+        padding: 5px 6px;
+    }
+
+    #Prodcts h1 {
+        font-size: 22px;
+    }
+
+    #Prodcts .Images .image {
+        width: 45%;
+    }
+
+    #Prodcts .Images .image .about h5 {
+        font-size: 3vw;
+        font-weight: 600;
+    }
+
+    #Prodcts .Images .image .about p {
+        font-weight: 500;
+        font-size: 3vw;
+    }
+
+    #Prodcts .Images .image .about h4 {
+        padding: 5px 2px;
+        font-size: 3vw;
+    }
+    .fa-solid, .fas {
+        font-weight: 600;
+    }
+
+    #Prodcts .Images .image a {
+        font-size:medium;
+    }
+    .Banner-One {
+        background-size: cover;
+        height: 30vh;
+        padding: 0px 20px;
+    }
+    .Banner-One h3 {
+        font-size: 3vw;
+    
+    }
+    .Banner-One p {
+        font-size: 2vw;
+        font-weight: 500;
+        padding-bottom: 10px;
+    }
+
+    .Banner-One .p2 span {
+        font-size: 3vw;
+        font-weight: 600;
+    }
+
+    button.grey {
+        padding: 5px 10px;
+        font-weight: 600;
+        font-size: 10px;
+    }
+
+    #BANNERS .Banner-Two h5 {
+        font-size: 3vw;
+        font-weight: 600;
+        color: #ffffff;
+        padding-bottom: 5px;
+        padding-left: 15px;
+    }
+
+    #BANNERS .Banner-Two p {
+        font-size: 3vw;
+        font-weight: 600;
+        padding-left: 15px; 
+    }
+
+    #BANNERS .Banner-Two {
+        padding: 0px;
+        width: 100%;
+        height: 30vh;
+        /* height: auto; */
+        background-image: url("/Health/W1.webp");
+        background-size: cover;
+        background-repeat: no-repeat;
+        aspect-ratio: 2/5;
+    }
+    #BANNERS .Banner-three {
+        background-image: url("/Health/O1.jpg");
+    }
+    #BANNERS .Banner-Two button {
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+
+
+    button.orange {
+        padding: 5px 10px;
+        font-weight: 700;
+        font-size: 10px;
+        
+    }
+
+    .logo p {
+        font-size: small;
+        font-style: italic;
+        font-weight: 900;
+        color: aliceblue;
+    }
+
+    .panel1 p:first-child {
+        padding-bottom: 10px;
+    }
+
+    .footer-panel1 .panel1 p {
+        color: aliceblue;
+        line-height: 12px;
+        font-size: smaller;
+        padding-left: 10px;
+    }
+    .footer-panel1 .btn {
+        border-radius: 8px;
+        padding: 5px;
+        font-size: 5px;
+        font-weight: 900;
+        margin-top: 20px;
+    }
+
+
+.IMAGE img {
+    padding: 10px;
+    border-radius: 30px;
+    height: 150px;
+    width: 120px;
+}
+
+
+.footer-panel1 {
+    height: 150px;
+}
+
+.footer-panel2 .panel2 .Links {
+    padding: 10px;
+    font-size: large;
+    display: flex;
+    
+}
+
+.footer-panel2 .panel2 h3 {
+    padding: 10px;
+    font-size: medium;
+}
+#FOOTER-TWO .footer-panel3{
+    padding-left: 10px;
+}
+
+}
+
+/* Product-page */
+@media (max-width:480px){
+    #Product-Box .Product-Images {
+        width: 50%;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+}
+

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Place Order - Mediaro</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="order.css">
+</head>
+<body>
+
+  <div class="order-box">
+    <h2>Place Your Order</h2>
+    <form id="orderForm">
+      <input type="text" id="name" placeholder="Your Full Name" required>
+      <input type="email" id="email" placeholder="Your Email" required>
+      <input type="text" id="product" placeholder="Product Name" required>
+      <input type="number" id="quantity" placeholder="Quantity" min="1" required>
+      <textarea id="address" placeholder="Delivery Address" rows="4" required></textarea>
+      <button type="submit">Submit Order</button>
+    </form>
+  </div>
+
+  <script>
+    document.getElementById("orderForm").addEventListener("submit", function(e) {
+      e.preventDefault();
+
+      const name = document.getElementById("name").value.trim();
+      const email = document.getElementById("email").value.trim();
+      const product = document.getElementById("product").value.trim();
+      const quantity = document.getElementById("quantity").value.trim();
+      const address = document.getElementById("address").value.trim();
+
+      const emailPattern = /^[^ ]+@[^ ]+\.[a-z]{2,3}$/i;
+
+      if (!name || !email || !product || !quantity || !address) {
+        alert("Please fill in all fields.");
+        return;
+      }
+
+      if (!emailPattern.test(email)) {
+        alert("Invalid email format.");
+        return;
+      }
+
+      if (isNaN(quantity) || quantity < 1) {
+        alert("Please enter a valid quantity.");
+        return;
+      }
+
+      alert("Your order has been submitted successfully!");
+      this.reset();
+    });
+  </script>
+
+</body>
+</html>

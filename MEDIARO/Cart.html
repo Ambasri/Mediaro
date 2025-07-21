@@ -1,0 +1,174 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Your Cart - Mediaro</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="/Health/Logo.jpg" width="34px" height="40px">
+    </div>
+    <div id="nav">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="About-page.html">About</a></li>
+        <li><a href="Contact.html">Contact</a></li>
+        <li><a href="#">Order</a></li>
+        <li><a href="#">Wishlist</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <div class="cart-header">
+    <h1>Your Shopping Cart</h1>
+    <a class="back-link" href="index.html">← Continue Shopping</a>
+  </div>
+
+  <section class="cart-container">
+    <div class="cart-item">
+      <img src="/Health/Pulse Oximeters.jpg" alt="Pulse Oximeter" class="product-img">
+      <div class="cart-details">
+        <h3>Pulse Oximeter Pro</h3>
+        <p>Price: ₹1,499</p>
+        <p>Quantity: 1</p>
+      </div>
+    </div>
+
+    <hr>
+
+     <!-- ✅ Quantity Counter -->
+     <div class="quantity-box">
+        <button onclick="decreaseQty()">−</button>
+        <input type="text" id="quantity" value="1" readonly>
+        <button onclick="increaseQty()">+</button>
+      </div>
+    </div>
+  </div>
+
+  <hr>
+
+    <div class="cart-summary">
+      <p><strong>Total: ₹1,499</strong></p>
+      <button class="checkout-btn">Proceed to Checkout</button>
+    </div>
+  </section>
+
+
+   <!-- ✅ JS for Quantity & Price -->
+   <script>
+    const quantityInput = document.getElementById('quantity');
+    const totalSpan = document.getElementById('total');
+    const unitPrice = 1499;
+
+    function updateTotal(qty) {
+      totalSpan.textContent = unitPrice * qty;
+    }
+
+    function increaseQty() {
+      let qty = parseInt(quantityInput.value);
+      if (qty < 10) {
+        qty += 1;
+        quantityInput.value = qty;
+        updateTotal(qty);
+      }
+    }
+
+    function decreaseQty() {
+      let qty = parseInt(quantityInput.value);
+      if (qty > 1) {
+        qty -= 1;
+        quantityInput.value = qty;
+        updateTotal(qty);
+      }
+    }
+  </script>
+
+
+
+<footer>
+    <section id="FOOTER">
+        <div class="footer-panel1">
+            <div class="logo">
+                <img src="Health/" height="60px">
+                <p> Mediaro </p>
+            </div>
+            <div class="panel1">
+                <p>Yay!Now you can</p>
+                <p><b>WHATSAPP</b></p>
+                <p> TO ORDER</p>
+            </div>
+            <button class="btn"> Whatsapp @ +91- 1234567895 <i class="fa-brands fa-whatsapp fa-2xl"
+                    style="color: #20832b;"></i></button>
+                    <div class="IMAGE"><img src="Health/calling.webp" height="200px" width="170px"></div>
+        </div>
+        
+    </section>
+
+    <section id="FOOTER-ONE">
+        <div class="footer-panel2">
+
+            <div class="panel2">
+                <h3>Mediaro <i class="fa-solid fa-basket-shopping" style="color: #13634b;"></i></h3>
+                <p>Feel Free To Follow Us On Our Social Media Handlers All The Links Are Given Below.</p>
+
+            <div class="Mediaro">
+
+                <!-- <div class="panel2">
+                    <h3>Mediaro <i class="fa-solid fa-basket-shopping" style="color: #13634b;"></i></h3>
+                    <p>Feel Free To Follow Us On Our Social Media Handlers All The Links Are Given Below.</p> -->
+
+                    <div class="Links">
+                        <i class="fa-brands fa-square-facebook" style="color: #1d2025;"></i>
+                        <i class="fa-brands fa-twitter" style="color: #090a0c;"></i>
+                        <i class="fa-brands fa-instagram fa-beat-fade" style="color: #1d1e20;"></i>
+                        <i class="fa-brands fa-linkedin-in fa-beat-fade" style="color: #202327;"></i>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="panel2">
+                <h3> Contact Info</h3>
+                <a href="#" class="LINKS"> <i class="fa fa-phone"></i> +91-5678986767</a>
+                <a href="#" class="LINKS"> <i class="fa fa-phone"></i> +91-7895347890</a>
+                <a href="#" class="LINKS"> <i class="fa fa-envelope"></i> media@gmail.com</a>
+                <a href="#" class="LINKS"> <i class="fa fa-map-marker"></i> Mohanpur,Giridih,Jharkhand</a>
+            </div>
+
+            <div class="panel2">
+                <h3>Helpful Links</h3>
+                <a href="#" class="LINKS"> <i class="fa-solid fa-house"> </i>- Home</a>
+                <a href="#" class="LINKS"> <i class="fa fa-address-card"></i>-About</a>
+                <a href="#" class="LINKS"><i class="fa-regular fa-list"></i>-Categories</a>
+                <a href="#" class="LINKS"><i class="fa fa-phone-volume"></i> -Contact </a>
+                <a href="#" class="LINKS"><i class="fa-solid fa-sort"></i></i>- Order </a>
+            </div>
+
+
+            <div class="panel2">
+                <h3>Newsletter</h3>
+                <p>Subscribe for Latest Update</p>
+                <input type="name" placeholder="Enter your Email" required class="Email">
+                <button class="btn">submit</button>
+                <div><img src="/Health/payment.png" height="px" width="150px"></div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="FOOTER-TWO">
+        <div class="footer-panel3">
+            <p>© 2025 Mediaro. All Rights Reserved.</p>
+            <p> Your trusted partner in premium medical accessories and healthcare solutions.</p>
+
+        </div>
+
+
+    </section>
+</footer>
+
+</body>
+</html>
